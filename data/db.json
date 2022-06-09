@@ -1,0 +1,28 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "JIN TELE - Video streaming web page",
+      "datetime": "July 01, 2021 11:17:36 AM",
+      "body": " I built a movie streaming webpage by receiving API from a server called Movie DataBase (https://developers.themoviedb.org/) that provides a movie/TV series datas in many different forms. I received these APIs with Axios and managed them via React-query for this project. Since I prefer to use Typescript, I first entered the data types by analyzing the properties of the API servers. And I built the components including Card, Slider, Footer and Header, and made a total of 12 features using those components. Finally I have built 4 pages on this website, two for the Movie tab and the other 2 for the TV tab. I made those pages utlising the components and features that I made at the beginning and set up page conversions through React-router-dom."
+    },
+    {
+      "id": 2,
+      "title": "Poketex - Pokemon Dictionary",
+      "datetime": "July 01, 2021 11:17:36 AM",
+      "body": "I created Pokemon Dictionary by receiving Pokemon APIs from a server (https://raw.githubusercontent.com/PokeAPI) I received these APIs with Axios and managed them via React-query for this project.Since I prefer to use Typescript, I first entered the data types by analyzing the properties of the API servers. And I set up custom hooks that received APIs and array their datas from 4 different aspects. Then I made components that contains UI of how to show each property and feature of Pokemons. At the end, I made 2 pages neatly containing 8 components by using taps and set up page conversions through React-router-dom."
+    },
+    {
+      "id": 3,
+      "title": "Word Chain Game",
+      "datetime": "July 01, 2021 11:17:36 AM",
+      "body": "It is a very simple response game. I made setTimeout with random seconds like this. Math.floor(Math.random() * 1000) + 2000."
+    },
+    {
+      "id": 4,
+      "title": "Times Table Game",
+      "datetime": "June 09, 2022 8:30:24 PM",
+      "body": "sdfsdfsdIt is a quickly built times table game. I randomly generate 2 numbers by Math.ceil(Math.random() * 9) by declaring a very simple method with useState."
+    }
+  ]
+}
