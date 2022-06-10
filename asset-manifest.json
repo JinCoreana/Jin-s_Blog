@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/jin-s_blog/static/css/main.a55066df.css",
+    "main.js": "/jin-s_blog/static/js/main.c5893bd4.js",
+    "index.html": "/jin-s_blog/index.html",
+    "main.a55066df.css.map": "/jin-s_blog/static/css/main.a55066df.css.map",
+    "main.c5893bd4.js.map": "/jin-s_blog/static/js/main.c5893bd4.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a55066df.css",
+    "static/js/main.c5893bd4.js"
+  ]
+}
