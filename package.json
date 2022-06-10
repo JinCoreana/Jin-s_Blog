@@ -1,7 +1,7 @@
 {
   "name": "jin_blog",
   "version": "0.1.0",
-  "homepage": "https://gitjincoreana.github.il/jin-s_blog",
+  "homepage": "https://jincoreana.github.io/jin-s_blog",
   "private": true,
   "dependencies": {
     "axios": "^0.27.2",
@@ -38,5 +38,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "gh-pages": "^4.0.0"
   }
 }
