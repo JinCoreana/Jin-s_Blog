@@ -10,7 +10,7 @@ root.render(
   <React.StrictMode>
     <Router>
       <Routes>
-      <Route path="/*" element={<App/>} />
+      <Route path="Jin-s_Blog/*" element={<App/>} />
       </Routes>
     </Router>
   </React.StrictMode>

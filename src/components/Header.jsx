@@ -10,7 +10,7 @@ const Header = ({ title }) => {
       <h1>Jin's</h1>
       <Link to="/">
         <img
-          src="/logo.png"
+          src="../assets/logo.PNG"
           alt="logo"
           style={{ width: "90px", margin: "0px", pointer: "cursor" }}
         />
