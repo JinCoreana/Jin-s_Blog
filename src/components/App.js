@@ -13,9 +13,9 @@ function App() {
   return (
   <DataProvider>
 <Routes>
-  <Route path="Jin-s_Blog/" element={<Layout/>}>
+  <Route path="/" element={<Layout/>}>
   <Route index element={<Home/>}/>
-  <Route path="Jin-s_Blog/post">
+  <Route path="post">
     <Route index element={
     <NewPost/>}/>
    <Route path=":id" element={
@@ -23,13 +23,13 @@ function App() {
     />}
     />
       
-  <Route path="Jin-s_Blog/edit">
+  <Route path="edit">
     <Route path=':id'
     element={<EditPost />}/>
   </Route>
   </Route>
 
-  <Route path="Jin-s_Blog/about" element={<About/>}/>
+  <Route path="about" element={<About/>}/>
   <Route path="*" element={<Missing/>}/>
 </Route>
 </Routes>
