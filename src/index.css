@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
 
 * {
   margin: 0;
@@ -12,7 +12,7 @@ html {
 
 body {
   min-height: 100vh;
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   display: flex;
@@ -24,7 +24,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-} 
+}
 
 .App {
   width: 100%;
@@ -38,19 +38,32 @@ body {
   box-shadow: 0px 0px 15px gray;
 }
 
-.Header, .Footer {
+.Header,
+.Footer {
   width: 100%;
   background-color: hsl(352, 100%, 85%);
   padding: 1rem;
   display: flex;
   justify-content: center;
   align-items: center;
+  position: relative;
 }
 
 .Header h1 {
   font-size: 1.5rem;
 }
 
+.device {
+  position: absolute;
+  bottom: 1rem;
+  right: 1rem;
+}
+
+.device svg {
+  width: 30px;
+  height: 30px;
+  color: rgba(255, 255, 255, 0.548);
+}
 .Footer {
   padding: 0.75rem;
   display: grid;
@@ -72,7 +85,7 @@ body {
 }
 
 .searchForm input[type="text"] {
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
   width: 80%;
   height: 35px;
   font-size: 0.8rem;
@@ -98,7 +111,7 @@ body {
   padding: 0.5rem;
 }
 
-.Nav li:hover, 
+.Nav li:hover,
 .Nav li:focus {
   padding: 0.5rem;
 }
@@ -108,20 +121,24 @@ body {
   text-decoration: none;
 }
 
-.Nav li:hover, 
-.Nav li:focus, 
-.Nav li:hover a, 
-.Nav li:focus a  {
+.Nav li:hover,
+.Nav li:focus,
+.Nav li:hover a,
+.Nav li:focus a {
   background-color: #eee;
   color: #333;
 }
 
-.Nav li:hover a, 
+.Nav li:hover a,
 .Nav li:focus a {
   cursor: pointer;
 }
 
-.Home, .NewPost, .PostPage, .About, .Missing {
+.Home,
+.NewPost,
+.PostPage,
+.About,
+.Missing {
   width: 100%;
   flex-grow: 1;
   padding: 1rem;
@@ -139,7 +156,7 @@ body {
   text-decoration: none;
 }
 
-.Home .post a, 
+.Home .post a,
 .Home .post a:visited {
   color: #000;
 }
@@ -153,7 +170,7 @@ body {
 }
 
 .postTitle:hover {
-    color: rgb(233, 88, 112);
+  color: rgb(233, 88, 112);
 }
 .postDate {
   font-size: 0.75rem;
@@ -164,22 +181,23 @@ body {
   margin: 1rem 0;
 }
 
-button a{
-    text-decoration: none;
-    color: white;
+button a {
+  text-decoration: none;
+  color: white;
 }
 
-button.edit, button.delete{
-    font-size: 1rem;
-    cursor: pointer;
-    height: 30px;
-    min-width: 48px;
-    border-radius: 0.25rem;
-    text-decoration: none;
-    width: 100px;
-    color: white;
-    background: rgb(224, 124, 157);
-    margin-left: 0.2rem;
+button.edit,
+button.delete {
+  font-size: 1rem;
+  cursor: pointer;
+  height: 30px;
+  min-width: 48px;
+  border-radius: 0.25rem;
+  text-decoration: none;
+  width: 100px;
+  color: white;
+  background: rgb(224, 124, 157);
+  margin-left: 0.2rem;
 }
 .newPostForm {
   display: flex;
@@ -190,9 +208,9 @@ button.edit, button.delete{
   margin-top: 0.2rem;
 }
 
-.newPostForm input[type='text'], 
+.newPostForm input[type="text"],
 .newPostForm textarea {
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
   width: 100%;
   min-height: 48px;
   font-size: 1rem;
@@ -217,8 +235,10 @@ button.edit, button.delete{
   cursor: pointer;
 }
 
-.Missing h2, .PostPage h2, 
-.Missing p, .PostPage p {
+.Missing h2,
+.PostPage h2,
+.Missing p,
+.PostPage p {
   margin-bottom: 1rem;
 }
 
@@ -257,19 +277,19 @@ button.edit, button.delete{
     text-align: right;
   }
 
-  .Nav li:hover, 
-  .Nav li:focus, 
-  .Nav li:hover a, 
-  .Nav li:focus a  {
+  .Nav li:hover,
+  .Nav li:focus,
+  .Nav li:hover a,
+  .Nav li:focus a {
     background-color: #eee;
     color: #333;
   }
 
   .searchForm {
     width: 50%;
-    padding: .5rem 0;
+    padding: 0.5rem 0;
   }
- 
+
   .searchForm input[type="text"] {
     margin-left: 0.5rem;
   }
@@ -280,9 +300,7 @@ button.edit, button.delete{
 }
 
 @media only screen and (min-width: 992px) {
-
   .Header svg {
     font-size: 3rem;
   }
-
 }
